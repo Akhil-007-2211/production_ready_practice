@@ -1,6 +1,6 @@
 import './App.css'
 import { OrbitProgress } from 'react-loading-indicators'
-import Signup from './Signnup'
+import Signup from './Signup'
 import { useState } from 'react';
 
 function App() {
