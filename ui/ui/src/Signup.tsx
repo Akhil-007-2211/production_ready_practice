@@ -1,4 +1,5 @@
-import React, { useState, FormEvent } from 'react';
+import React, { useState } from 'react';
+
 import './Signup.css'
 
 // REVIEW: File name has a typo (`Signnup.tsx`) while component is `Signup`. Enterprise standards prefer matching names for readability and maintenance.
@@ -24,7 +25,7 @@ const Signup = () => {
         return !(userNameError || emailError || passwordError);
     }
 
-    const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
+    const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         // REVIEW: Prevent form default submission when using client-side submit handling.
         if (!signupValidation()) {
