@@ -1,0 +1,8 @@
+D:\Projects\production_grade\production_ready_practice\backend\production_practice\src\main\java\com\akhil\demo\controller\UserSignupController.java
+D:\Projects\production_grade\production_ready_practice\backend\production_practice\src\main\java\com\akhil\demo\dto\UserSignupRequestDTO.java
+D:\Projects\production_grade\production_ready_practice\backend\production_practice\src\main\java\com\akhil\demo\dto\UserSignupResponseDTO.java
+D:\Projects\production_grade\production_ready_practice\backend\production_practice\src\main\java\com\akhil\demo\entity\Users.java
+D:\Projects\production_grade\production_ready_practice\backend\production_practice\src\main\java\com\akhil\demo\ProductionPracticeApplication.java
+D:\Projects\production_grade\production_ready_practice\backend\production_practice\src\main\java\com\akhil\demo\repository\UsersRepository.java
+D:\Projects\production_grade\production_ready_practice\backend\production_practice\src\main\java\com\akhil\demo\service\implementation\UserSignupService.java
+D:\Projects\production_grade\production_ready_practice\backend\production_practice\src\main\java\com\akhil\demo\service\interfaces\IUserSignupRequest.java
