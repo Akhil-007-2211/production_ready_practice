@@ -14,7 +14,8 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class UserSignupService implements IUserSignupRequest {
 
-    private final UserSignupRequestDTO userSignupRequestDTO;
+
+    private UserSignupRequestDTO userSignupRequestDTO;
 	@Autowired
     private UsersRepository usersSignupRepository;
 
