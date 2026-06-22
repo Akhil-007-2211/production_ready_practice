@@ -6,13 +6,11 @@ import com.akhil.demo.service.implementation.UserSignupService;
 import com.akhil.demo.service.interfaces.IUserSignupRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("api/users")
+@CrossOrigin(origins = "http://localhost:5173")
 public class UserSignupController {
     @Autowired
     private IUserSignupRequest iUserSignupRequest;
